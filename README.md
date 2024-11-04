@@ -41,6 +41,7 @@ This will create a 12 GB file with 1B rows named `measurements.txt` in your curr
 ### Run the challenge:
 
 ```
+sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 time bin/analyze measurements.txt >/dev/null
 
 real	0m1.392s

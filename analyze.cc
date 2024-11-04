@@ -17,7 +17,7 @@
 #include <iostream>
 #include <chrono>
 #include <stdio.h>
-#include "xxh3.h"
+//#include "xxh3.h"
 #include <sched.h>
 #include "rapidhash.h"
 // clang-format on
